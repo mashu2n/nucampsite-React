@@ -47,7 +47,7 @@ class CampsiteInfo extends Component {
                 </div>
             );
         }
-        return <div />;
+        return <div></div>;
     }
 }
 
