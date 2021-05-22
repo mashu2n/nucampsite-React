@@ -47,7 +47,7 @@ import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
                 </div>
             );
         }
-        return <div></div>;
+        return <div />;
     }
 
 export default CampsiteInfo;
