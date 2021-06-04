@@ -74,8 +74,7 @@ export const addComment = comment => ({
     payload: comment
 });
 
-export const postComment = (campsiteId, rating, author, text) => dispatch => {
-    
+export const postComment = (campsiteId, rating, author, text) => dispatch => { 
     const newComment = {
         campsiteId: campsiteId,
         rating: rating,
