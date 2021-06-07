@@ -59,7 +59,6 @@ class CommentForm extends Component {
                 <div className="form-group">
                 <Label htmlFor="username">Your Name</Label>
                 <Control.text className="form-control" model=".author" id="author" name="author"
-                    className="form-control"
                     validators={{
                     required, 
                     minLength: minLength(2),
